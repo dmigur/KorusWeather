@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="results">
+
+    <div class="resultsheader">Weather Results for query:  <span class="query">{{query}}</span></div>
+
+    <table class="tresults" id="tasks" cellspacing="0" cellpadding="0" border="1">
+
+        <tr>
+            <colgroup>
+                <col span="1" style="width: 17%;">
+                <col span="1" style="width: 20%;">
+                <col span="1" style="width: 20%;">
+                <col span="1" style="width: 20%;">
+                <col span="1">
+            </colgroup>
+
+            <thead>
+            <tr class="header">
+
+                <th class="cell_header">
+                    Temperature
+                </th>
+
+                <th class="cell_header">
+                    Humidity
+                </th>
+                <th class="cell_header">
+                    Pressure
+                </th>
+                <th class="cell_header cell_header_date">
+                    Wind Speed
+                </th>
+                <th class="cell_header">
+                    Country
+                </th>
+            </tr>
+            </thead>
+
+        </tr>
+
+
+        <tr ng-repeat="we in weathers">
+
+            <td class="cell_default">
+                {{we.temp}}
+            </td>
+
+            <td class="cell_default">
+                {{we.humidity}}
+            </td>
+
+            <td class="cell_default">
+                {{we.pressure}}
+            </td>
+
+            <td style="cell_default">
+                {{we.windSpeed }}
+            </td>
+
+            <td class="cell_default">
+                {{we.country}}
+            </td>
+
+        </tr>
+
+    </table>
+
+
+    <br><br><br>
+    <span class="back"><a href="/"><< Back to main page</a></span>
+</div>
+</body>
+
+
+</html>

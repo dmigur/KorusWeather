@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<body>
+
+
+<div class="user">Hello, <span class="username" ng-show="user!=null">{{user.name}}</span>
+  <span class="logout" ng-show="user!=null"> <a href="/logout">Logout</a></span>
+
+</div>
+
+
+<h2 style="text-align: center; color: darkblue">Korus Consulting Weather</h2>
+
+<div>
+
+
+    <div id="status" class="block_status">
+
+        <div class="statusMessage" ng-show="statusMessage && !errorMessage">
+            {{statusMessage}}
+        </div>
+
+        <div class="errorMessage" ng-show="errorMessage">
+            {{errorMessage}}
+        </div>
+
+
+    </div>
+
+
+    <div class="controls">
+        <div class="addtask">
+            <div><b>Enter City</b></div>
+
+            <form name="addTask">
+
+                <table>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            City:
+                        </td>
+                        <td>
+                            <input type="text" ng-model="task.city" name="taskCity" class="taskCity">
+                        </td>
+                    </tr>
+
+
+                </table>
+
+                <button style="float: right" ng-disabled="isGetWeatherByCityDisabled()"
+                        ng-click="getWeatherByCity()">GET WEATHER
+                </button>
+
+            </form>
+
+
+        </div>
+
+
+        <div class="edittask">
+            <div><b>Enter coordinates</b></div>
+            <form name="changeTask">
+
+                <table>
+
+
+                    <tr>
+                        <td>
+                            Latitude:
+                        </td>
+                        <td>
+                            <input type="number" min="-90" max="90" step="0.01" ng-model="task.latitude" name="coord" class="coord">
+                        </td>
+                    </tr>
+
+                    <tr>
+
+                        <td>
+                            Longitude:
+                        </td>
+                        <td>
+                            <input type="number" min="-180" max="180" step="0.01" ng-model="task.longitude" name="coord" class="coord">
+                        </td>
+                    </tr>
+                </table>
+
+                <button style="float: right" ng-disabled="isGetWeatherByCoordsDisabled()"
+                        ng-click="getWeatherByCoords()">GET WEATHER
+                </button>
+
+            </form>
+
+
+        </div>
+
+
+    </div>
+
+
+    <div id="loading" style="display: none">
+        <div><img src="images/spinner.gif" width="30" height="30" alt="Be patient..."/>
+        </div>
+    </div>
+
+
+    <div id="confirmBox" class="modal">
+        <div class="modal-content">
+
+            <div class="message"></div>
+            <button class="yes" style="width: 50px">OK</button>
+            &nbsp;
+            <button class="no">Cancel</button>
+
+        </div>
+    </div>
+
+</body>
+</html>
