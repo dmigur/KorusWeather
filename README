@@ -1,0 +1,19 @@
+﻿Weather test application README
+
+Weather test application uses https://openweathermap.org/ API to get a weather data either by city or by geographical coordinates.
+
+Installation and running:
+--------------------------------------------------
+1. mvn install.  
+2. mvn spring-boot:run
+
+
+Usage:
+--------------------------------------------------
+1.Start application
+2.Open web page on localhost:8080
+3.Authorize in a login form, using following names and passwords: eugene/eugene, dmitri/dmitri, oleg/oleg, roman/roman.
+4.On the left control pane enter a city name and press "GET WEATHER" button    
+5.On the right control pane enter latitude and longitude and press "GET WEATHER" button
+6.Change user using "logout" link
+
