@@ -1,0 +1,207 @@
+[2019-09-24T15:54:21.021Z] [org.springframework.boot.StartupInfoLogger] [main] [50] [INFO ] Starting WeatherApplication on DESKTOP-N31DV8U with PID 16000 (C:\Projects\weather\target\classes started by User in C:\Projects\weather)
+[2019-09-24T15:54:21.021Z] [org.springframework.boot.SpringApplication] [main] [675] [INFO ] No active profile set, falling back to default profiles: default
+[2019-09-24T15:54:24.024Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [90] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2019-09-24T15:54:24.024Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2019-09-24T15:54:24.024Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2019-09-24T15:54:24.024Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.19]
+[2019-09-24T15:54:24.024Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2019-09-24T15:54:24.024Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [296] [INFO ] Root WebApplicationContext: initialization completed in 2641 ms
+[2019-09-24T15:54:24.024Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [171] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2019-09-24T15:54:25.025Z] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [main] [56] [INFO ] Adding welcome page: class path resource [static/index.html]
+[2019-09-24T15:54:25.025Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [43] [INFO ] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38830ea, org.springframework.security.web.context.SecurityContextPersistenceFilter@38c9e0d6, org.springframework.security.web.header.HeaderWriterFilter@14f40030, org.springframework.security.web.authentication.logout.LogoutFilter@554c4eaa, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4b31a708, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@310aee0b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24386839, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b705be7, org.springframework.security.web.session.SessionManagementFilter@63a28987, org.springframework.security.web.access.ExceptionTranslationFilter@1921994e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6f044c58]
+[2019-09-24T15:54:25.025Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2019-09-24T15:54:25.025Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [204] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2019-09-24T15:54:25.025Z] [org.springframework.boot.StartupInfoLogger] [main] [59] [INFO ] Started WeatherApplication in 4.863 seconds (JVM running for 7.733)
+[2019-09-24T15:55:13.013Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2019-09-24T15:55:13.013Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [524] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2019-09-24T15:55:13.013Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [546] [INFO ] Completed initialization in 12 ms
+[2019-09-24T15:55:14.014Z] [com.corus.controller.WeatherController] [http-nio-8080-exec-2] [112] [INFO ] getting settings
+[2019-09-24T15:55:24.024Z] [com.corus.controller.WeatherController] [http-nio-8080-exec-6] [74] [INFO ] org.springframework.security.core.userdetails.User@b0d61cab: Username: dmitri; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER , location = Tallinn
+[2019-09-24T15:55:31.031Z] [com.corus.controller.WeatherController] [http-nio-8080-exec-6] [80] [INFO ] Getting tasks
+[2019-09-24T16:01:06.006Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-12] [208] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2019-09-24T16:08:16.016Z] [com.corus.controller.WeatherController] [http-nio-8080-exec-3] [74] [INFO ] org.springframework.security.core.userdetails.User@b0d61cab: Username: dmitri; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_USER , location = Tallinn
+[2019-09-24T17:00:43.043Z] [com.corus.controller.WeatherController] [http-nio-8080-exec-4] [78] [INFO ] dmitri , location = Tallinn
+[2019-09-24T17:03:27.027Z] [INFO ] dmitri , location = Tallinn
+[2019-09-24T17:10:51.051Z] [INFO ] dmitri , location = Tallinn
+[2019-09-25T10:32:47.047Z] [INFO ] eugene , location = Moscow
+[2019-09-25T10:33:28.028Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T10:36:03.003Z] [INFO ] eugene , location = Moscow
+[2019-09-25T10:36:37.037Z] [INFO ] eugene , location = Moscow
+[2019-09-25T10:37:06.006Z] [INFO ] eugene , location = Osaka
+[2019-09-25T10:38:50.050Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T10:44:45.045Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T10:48:50.050Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T10:53:20.020Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T10:56:08.008Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T11:04:22.022Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T11:18:57.057Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T11:20:18.018Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T11:40:02.002Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T11:40:53.053Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T11:41:02.002Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T11:48:32.032Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T11:48:52.052Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T11:49:54.054Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T11:55:25.025Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T11:55:44.044Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T12:01:48.048Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T12:11:04.004Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T12:11:50.050Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T12:15:53.053Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T12:16:30.030Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T12:18:29.029Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T12:21:17.017Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T12:22:07.007Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T12:24:17.017Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T12:25:33.033Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T12:26:50.050Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T12:27:04.004Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T12:32:31.031Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T12:40:07.007Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T12:50:55.055Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T12:51:15.015Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T12:54:28.028Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T12:57:13.013Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T12:57:37.037Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T12:58:30.030Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T13:02:02.002Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T13:08:14.014Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T13:08:34.034Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T13:11:01.001Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T13:11:17.017Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T13:18:44.044Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T13:20:15.015Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T13:22:55.055Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T13:23:15.015Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T13:25:27.027Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T13:25:49.049Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T13:35:20.020Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T13:38:18.018Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T13:38:29.029Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T13:43:01.001Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T13:48:17.017Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T17:31:57.057Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T17:32:51.051Z] [INFO ] eugene , location = Tallinn1
+[2019-09-25T17:33:39.039Z] [INFO ] eugene , location = Moscow
+[2019-09-25T17:33:48.048Z] [INFO ] eugene , location = New Iork
+[2019-09-25T17:34:04.004Z] [INFO ] eugene , location = Paris
+[2019-09-25T17:34:27.027Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T17:34:32.032Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T17:45:05.005Z] [INFO ] eugene , location = Tallinn
+[2019-09-25T17:48:07.007Z] [INFO ] eugene , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=11.5, pressure=1014, humidity=76, windSpeed=2.1, country='EE'} WeatherDTO{temp=19.930000000000007, pressure=1010, humidity=77, windSpeed=3.1, countr....
+[2019-09-25T18:00:59.059Z] [INFO ] eugene , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=11.0, pressure=1014, humidity=76, windSpeed=2.1, country='EE'} WeatherDTO{temp=19.0, pressure=1010, humidity=77, windSpeed=3.1, country='HU'}
+[2019-09-25T18:04:16.016Z] [INFO ] eugene , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=11.5, pressure=1014, humidity=76, windSpeed=2.1, country='EE'} WeatherDTO{temp=19.9, pressure=1010, humidity=77, windSpeed=3.1, country='HU'}
+[2019-09-25T18:04:28.028Z] [INFO ] eugene , location = Rome, result = Status=Success, message='null' WeatherDTO{temp=24.0, pressure=1012, humidity=69, windSpeed=2.6, country='IT'} WeatherDTO{temp=15.2, pressure=1013, humidity=93, windSpeed=2.6, country='US'} WeatherDTO{temp=20.7, pressure=1016, humidity=60, windSpeed=1.04, country='US'} WeatherDTO{temp=19.3, pressure=1005, humidity=93, windSpeed=5.7, country='US'} WeatherDTO{temp=14.6, pressure=1010, humidity=82, windSpeed=2.1, country='US'}
+[2019-09-25T18:18:21.021Z] [INFO ] eugene , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=11.3, pressure=1014, humidity=76, windSpeed=1.5, country='EE'} WeatherDTO{temp=19.8, pressure=1010, humidity=77, windSpeed=3.1, country='HU'}
+[2019-09-25T18:18:36.036Z] [INFO ] eugene , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=11.3, pressure=1014, humidity=76, windSpeed=1.5, country='EE'} WeatherDTO{temp=19.8, pressure=1010, humidity=77, windSpeed=3.1, country='HU'}
+[2019-09-25T18:19:21.021Z] [INFO ] eugene , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=11.3, pressure=1014, humidity=76, windSpeed=1.5, country='EE'} WeatherDTO{temp=19.8, pressure=1010, humidity=77, windSpeed=3.1, country='HU'}
+[2019-09-25T18:19:55.055Z] [INFO ] eugene , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=11.3, pressure=1014, humidity=76, windSpeed=1.5, country='EE'} WeatherDTO{temp=19.8, pressure=1010, humidity=77, windSpeed=3.1, country='HU'}
+[2019-09-26T11:11:45.045Z] [INFO ] eugene , location = null, result = Status=Error, message='null'
+[2019-09-26T11:12:11.011Z] [INFO ] eugene , location = null, result = Status=Error, message='null'
+[2019-09-26T11:12:26.026Z] [INFO ] eugene , location = null, result = Status=Error, message='null'
+[2019-09-26T11:14:02.002Z] [INFO ] eugene , location = null, result = Status=Error, message='null'
+[2019-09-26T11:28:12.012Z] [INFO ] eugene , location = null, result = Status=Success, message='null' WeatherDTO{temp=-248.8, pressure=1010, humidity=89, windSpeed=1.34, country='null'}
+[2019-09-26T11:28:45.045Z] [INFO ] eugene , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=8.7, pressure=1015, humidity=81, windSpeed=1.5, country='EE'} WeatherDTO{temp=15.2, pressure=1012, humidity=100, windSpeed=2.1, country='HU'}
+[2019-09-26T11:30:35.035Z] [INFO ] eugene , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=8.7, pressure=1015, humidity=81, windSpeed=1.5, country='EE'} WeatherDTO{temp=15.2, pressure=1012, humidity=100, windSpeed=2.1, country='HU'}
+[2019-09-26T11:30:43.043Z] [INFO ] eugene , location = null, result = Status=Success, message='null' WeatherDTO{temp=-248.8, pressure=1010, humidity=89, windSpeed=1.34, country='null'}
+[2019-09-26T11:50:59.059Z] [INFO ] eugene , location = null, result = Status=Success, message='null' WeatherDTO{temp=2.3, pressure=1007.2, humidity=69, windSpeed=5.79, country='null'}
+[2019-09-26T11:51:13.013Z] [INFO ] eugene , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=281.81, pressure=1015, humidity=81, windSpeed=1.5, country='EE'} WeatherDTO{temp=288.38, pressure=1012, humidity=100, windSpeed=2.1, country='HU'}
+[2019-09-26T11:56:43.043Z] [INFO ] eugene , location = null, result = Status=Success, message='null' WeatherDTO{temp=-10.11, pressure=1011, humidity=94, windSpeed=3.34, country='null'}
+[2019-09-26T11:57:07.007Z] [INFO ] eugene , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=281.81, pressure=1015, humidity=81, windSpeed=1.5, country='EE'} WeatherDTO{temp=288.38, pressure=1012, humidity=100, windSpeed=2.1, country='HU'}
+[2019-09-26T11:59:42.042Z] [INFO ] eugene , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=281.81, pressure=1015, humidity=81, windSpeed=1.5, country='EE'} WeatherDTO{temp=288.38, pressure=1012, humidity=100, windSpeed=2.1, country='HU'}
+[2019-09-26T12:09:15.015Z] [INFO ] eugene , location = null, result = Status=Success, message='null' WeatherDTO{temp=281.81, pressure=1015, humidity=81, windSpeed=1.5, country='EE'} WeatherDTO{temp=288.38, pressure=1012, humidity=100, windSpeed=2.1, country='HU'}
+[2019-09-26T12:09:15.015Z] [INFO ] eugene , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=281.81, pressure=1015, humidity=81, windSpeed=1.5, country='EE'} WeatherDTO{temp=288.38, pressure=1012, humidity=100, windSpeed=2.1, country='HU'}
+[2019-09-26T12:09:15.015Z] [INFO ] eugene , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=281.81, pressure=1015, humidity=81, windSpeed=1.5, country='EE'} WeatherDTO{temp=288.38, pressure=1012, humidity=100, windSpeed=2.1, country='HU'}
+[2019-09-26T12:09:29.029Z] [INFO ] eugene , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=281.81, pressure=1015, humidity=81, windSpeed=1.5, country='EE'} WeatherDTO{temp=288.38, pressure=1012, humidity=100, windSpeed=2.1, country='HU'}
+[2019-09-26T12:11:36.036Z] [INFO ] eugene , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=283.75, pressure=1015, humidity=76, windSpeed=2.1, country='EE'} WeatherDTO{temp=288.38, pressure=1012, humidity=93, windSpeed=2.1, country='HU'}
+[2019-09-26T12:18:53.053Z] [INFO ] eugene , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=283.75, pressure=1015, humidity=76, windSpeed=2.1, country='EE'} WeatherDTO{temp=288.38, pressure=1012, humidity=93, windSpeed=2.1, country='HU'}
+[2019-09-26T12:19:48.048Z] [INFO ] eugene , location = null, result = Status=Success, message='null' WeatherDTO{temp=29, pressure=1009.94, humidity=68, windSpeed=3.94, country='null'}
+[2019-09-26T12:36:56.056Z] [INFO ] eugene , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=283.75, pressure=1015, humidity=76, windSpeed=2.1, country='EE'} WeatherDTO{temp=288.38, pressure=1012, humidity=93, windSpeed=2.1, country='HU'}
+[2019-09-26T12:37:23.023Z] [INFO ] eugene , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=283.75, pressure=1015, humidity=76, windSpeed=2.1, country='EE'} WeatherDTO{temp=288.38, pressure=1012, humidity=93, windSpeed=2.1, country='HU'}
+[2019-09-26T12:37:32.032Z] [INFO ] eugene , location = null, result = Status=Success, message='null' WeatherDTO{temp=26.67, pressure=1010, humidity=88, windSpeed=1.34, country='null'}
+[2019-09-26T12:41:22.022Z] [INFO ] eugene , location = null, result = Status=Success, message='null' WeatherDTO{temp=32.1, pressure=1012.34, humidity=48, windSpeed=5.39, country='null'}
+[2019-09-26T12:58:46.046Z] [INFO ] dmitri , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=283.75, pressure=1015, humidity=76, windSpeed=2.1, country='EE'} WeatherDTO{temp=288.38, pressure=1012, humidity=93, windSpeed=2.1, country='HU'}
+[2019-09-26T12:59:10.010Z] [INFO ] dmitri , location = null, result = Status=Success, message='null' WeatherDTO{temp=10.9, pressure=1019.33, humidity=30, windSpeed=1.38, country='null'}
+[2019-09-26T13:02:56.056Z] [INFO ] dmitri , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=283.75, pressure=1015, humidity=76, windSpeed=2.1, country='EE'} WeatherDTO{temp=288.38, pressure=1012, humidity=93, windSpeed=2.1, country='HU'}
+[2019-09-26T13:03:29.029Z] [INFO ] dmitri , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=283.75, pressure=1015, humidity=76, windSpeed=2.1, country='EE'} WeatherDTO{temp=288.38, pressure=1012, humidity=93, windSpeed=2.1, country='HU'}
+[2019-09-26T13:08:24.024Z] [INFO ] dmitri , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=283.75, pressure=1015, humidity=76, windSpeed=2.1, country='EE'} WeatherDTO{temp=288.38, pressure=1012, humidity=93, windSpeed=2.1, country='HU'}
+[2019-09-26T13:09:33.033Z] [INFO ] dmitri , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=283.75, pressure=1015, humidity=76, windSpeed=2.1, country='EE'} WeatherDTO{temp=288.38, pressure=1012, humidity=93, windSpeed=2.1, country='HU'}
+[2019-09-26T13:09:41.041Z] [INFO ] dmitri , location = null, result = Status=Success, message='null' WeatherDTO{temp=24.67, pressure=1010, humidity=85, windSpeed=1.34, country='null'}
+[2019-09-26T13:10:52.052Z] [INFO ] dmitri , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=283.75, pressure=1015, humidity=76, windSpeed=2.1, country='EE'} WeatherDTO{temp=288.38, pressure=1012, humidity=93, windSpeed=2.1, country='HU'}
+[2019-09-26T13:10:59.059Z] [INFO ] dmitri , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=283.75, pressure=1015, humidity=76, windSpeed=2.1, country='EE'} WeatherDTO{temp=288.38, pressure=1012, humidity=93, windSpeed=2.1, country='HU'}
+[2019-09-26T13:11:02.002Z] [INFO ] dmitri , location = null, result = Status=Success, message='null' WeatherDTO{temp=24.71, pressure=1010, humidity=84, windSpeed=1.79, country='null'}
+[2019-09-26T13:18:55.055Z] [INFO ] dmitri , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=284.58, pressure=1016, humidity=76, windSpeed=2.1, country='EE'} WeatherDTO{temp=288.61, pressure=1012, humidity=100, windSpeed=2.1, country='HU'}
+[2019-09-26T13:19:00.000Z] [INFO ] dmitri , location = null, result = Status=Success, message='null' WeatherDTO{temp=24.63, pressure=1010, humidity=84, windSpeed=1.34, country='null'}
+[2019-09-26T15:37:00.000Z] [INFO ] dmitri , location = null, result = Status=Success, message='null' WeatherDTO{temp=-3.03, pressure=1019.2, humidity=94, windSpeed=4.54, country='null'}
+[2019-09-26T15:37:32.032Z] [INFO ] dmitri , location = null, result = Status=Success, message='null' WeatherDTO{temp=-55.33, pressure=1027.83, humidity=86, windSpeed=4.57, country='null'}
+[2019-09-26T15:37:44.044Z] [INFO ] dmitri , location = null, result = Status=Success, message='null' WeatherDTO{temp=-9.63, pressure=1010.75, humidity=94, windSpeed=3.2, country='null'}
+[2019-09-26T15:41:40.040Z] [INFO ] dmitri , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=285.09, pressure=1016, humidity=71, windSpeed=2.6, country='EE'} WeatherDTO{temp=290.66, pressure=1013, humidity=93, windSpeed=3.1, country='HU'}
+[2019-09-26T15:42:51.051Z] [INFO ] dmitri , location = Warsaw, result = Status=Success, message='null' WeatherDTO{temp=288.39, pressure=1010, humidity=82, windSpeed=1.5, country='PL'} WeatherDTO{temp=287.19, pressure=1013, humidity=82, windSpeed=3.6, country='US'} WeatherDTO{temp=293.31, pressure=1011, humidity=100, windSpeed=1.5, country='US'} WeatherDTO{temp=291.11, pressure=1011, humidity=93, windSpeed=2.32, country='US'} WeatherDTO{temp=288.22, pressure=1010, humidity=93, windSpeed=3.06, country='US'}
+[2019-09-26T15:54:25.025Z] [INFO ] dmitri , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=285.09, pressure=1016, humidity=71, windSpeed=2.6, country='EE'} WeatherDTO{temp=290.66, pressure=1013, humidity=93, windSpeed=3.1, country='HU'}
+[2019-09-26T15:54:34.034Z] [INFO ] dmitri , location = null, result = Status=Success, message='null' WeatherDTO{temp=25.53, pressure=1012, humidity=87, windSpeed=0.45, country='null'}
+[2019-09-26T15:58:51.051Z] [INFO ] dmitri , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=285.09, pressure=1016, humidity=71, windSpeed=2.6, country='EE'} WeatherDTO{temp=290.66, pressure=1013, humidity=93, windSpeed=3.1, country='HU'}
+[2019-09-26T16:29:01.001Z] [INFO ] 
+[2019-09-26T16:31:49.049Z] [INFO ] 
+[2019-09-26T16:37:05.005Z] [INFO ] 
+[2019-09-26T16:46:57.057Z] [INFO ] oleg , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=285.39, pressure=1016, humidity=66, windSpeed=2.1, country='EE'} WeatherDTO{temp=293.22, pressure=1012, humidity=82, windSpeed=2.1, country='HU'}
+[2019-09-26T16:54:58.058Z] [INFO ] oleg , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=285.39, pressure=1016, humidity=66, windSpeed=2.1, country='EE'} WeatherDTO{temp=293.22, pressure=1012, humidity=82, windSpeed=2.1, country='HU'}
+[2019-09-26T16:55:12.012Z] [INFO ] oleg , location = null, result = Status=Success, message='null' WeatherDTO{temp=24.22, pressure=1012, humidity=84, windSpeed=5.29, country='null'}
+[2019-09-26T16:55:25.025Z] [INFO ] oleg , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=285.39, pressure=1016, humidity=66, windSpeed=2.1, country='EE'} WeatherDTO{temp=293.22, pressure=1012, humidity=82, windSpeed=2.1, country='HU'}
+[2019-09-26T16:55:34.034Z] [INFO ] oleg , location = null, result = Status=Success, message='null' WeatherDTO{temp=23.56, pressure=1009, humidity=10, windSpeed=5.29, country='null'}
+[2019-09-26T16:56:03.003Z] [INFO ] oleg , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=285.39, pressure=1016, humidity=66, windSpeed=2.1, country='EE'} WeatherDTO{temp=293.22, pressure=1012, humidity=82, windSpeed=2.1, country='HU'}
+[2019-09-26T17:01:05.005Z] [INFO ] oleg , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=285.39, pressure=1016, humidity=66, windSpeed=2.1, country='EE'} WeatherDTO{temp=293.22, pressure=1012, humidity=82, windSpeed=2.1, country='HU'}
+[2019-09-26T18:27:27.027Z] [INFO ] eugene , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=284.72, pressure=1016, humidity=71, windSpeed=2.1, country='EE'} WeatherDTO{temp=294.32, pressure=1012, humidity=72, windSpeed=4.1, country='HU'}
+[2019-09-26T18:54:03.003Z] [INFO ] dmitri , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=284.72, pressure=1016, humidity=71, windSpeed=2.1, country='EE'} WeatherDTO{temp=294.32, pressure=1012, humidity=72, windSpeed=4.1, country='HU'}
+[2019-09-26T18:54:11.011Z] [INFO ] dmitri , location = null, result = Status=Success, message='null' WeatherDTO{temp=27.9, pressure=1012, humidity=81, windSpeed=5.29, country='null'}
+[2019-09-26T18:54:22.022Z] [INFO ] dmitri , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=284.72, pressure=1016, humidity=71, windSpeed=2.1, country='EE'} WeatherDTO{temp=294.32, pressure=1012, humidity=72, windSpeed=4.1, country='HU'}
+[2019-09-26T18:57:31.031Z] [INFO ] eugene , location = Meco, result = Status=Success, message='null' WeatherDTO{temp=299.62, pressure=1019, humidity=34, windSpeed=2.6, country='ES'} WeatherDTO{temp=297.11, pressure=1015, humidity=73, windSpeed=2.1, country='IT'} WeatherDTO{temp=296.42, pressure=1018, humidity=68, windSpeed=0.89, country='PT'} WeatherDTO{temp=290.96, pressure=1006, humidity=100, windSpeed=0.55, country='US'}
+[2019-09-26T19:01:58.058Z] [INFO ] eugene , location = Moscow, result = Status=Success, message='null' WeatherDTO{temp=284.36, pressure=1015, humidity=40, windSpeed=3, country='RU'} WeatherDTO{temp=284.94, pressure=1011, humidity=46, windSpeed=4.02, country='US'} WeatherDTO{temp=291.02, pressure=1011, humidity=60, windSpeed=1.7, country='US'} WeatherDTO{temp=295.85, pressure=1011, humidity=68, windSpeed=4.1, country='US'} WeatherDTO{temp=296.48, pressure=1014, humidity=78, windSpeed=3.26, country='US'}
+[2019-09-26T19:04:16.016Z] [INFO ] oleg , location = Saint Petersburg, result = Status=Success, message='null' WeatherDTO{temp=282.29, pressure=1015, humidity=71, windSpeed=3, country='RU'} WeatherDTO{temp=301.49, pressure=1015, humidity=69, windSpeed=2.8, country='US'} WeatherDTO{temp=292.17, pressure=1011, humidity=82, windSpeed=3.1, country='US'}
+[2019-09-26T19:14:39.039Z] [INFO ] oleg , location = null, result = Status=Success, message='null' WeatherDTO{temp=285.514, pressure=1013.75, humidity=100, windSpeed=5.52, country='null'}
+[2019-09-26T19:17:26.026Z] [INFO ] oleg , location = Tallinn, result = Status=Success, message='null' WeatherDTO{temp=7, pressure=1012, humidity=81, windSpeed=4.6, country='GB'}
+[2019-09-26T19:18:24.024Z] [INFO ] oleg , location = Moscow, result = Status=Success, message='null' WeatherDTO{temp=7, pressure=1012, humidity=81, windSpeed=4.6, country='GB'}
+[2019-09-26T19:30:40.040Z] [INFO ] oleg , location = Saint Petersburg, result = Status=Success, message='null' WeatherDTO{temp=-266.1, pressure=1012, humidity=81, windSpeed=4.6, country='GB'}
+[2019-09-26T19:32:06.006Z] [INFO ] oleg , location = Saint Petersburg, result = Status=Success, message='null' WeatherDTO{temp=-266.1, pressure=1012, humidity=81, windSpeed=4.6, country='GB'}
+[2019-09-26T19:32:16.016Z] [INFO ] oleg , location = null, result = Status=Success, message='null' WeatherDTO{temp=12.4, pressure=1013.75, humidity=100, windSpeed=5.52, country='null'}
+[2019-09-26T19:40:36.036Z] [INFO ] oleg , location = Saint Petersburg, result = Status=Success, message='null' WeatherDTO{temp=7, pressure=1012, humidity=81, windSpeed=4.6, country='GB'}
+[2019-09-26T19:40:41.041Z] [INFO ] oleg , location = Saint Petersburg, result = Status=Success, message='null' WeatherDTO{temp=7, pressure=1012, humidity=81, windSpeed=4.6, country='GB'}
+[2019-09-26T19:41:01.001Z] [INFO ] oleg , location = Sankt Petersburg, result = Status=Success, message='null' WeatherDTO{temp=7, pressure=1012, humidity=81, windSpeed=4.6, country='GB'}
+[2019-09-26T19:41:11.011Z] [INFO ] oleg , location = null, result = Status=Success, message='null' WeatherDTO{temp=12.4, pressure=1013.75, humidity=100, windSpeed=5.52, country='null'}
+[2019-09-26T19:41:19.019Z] [INFO ] oleg , location = null, result = Status=Success, message='null' WeatherDTO{temp=12.4, pressure=1013.75, humidity=100, windSpeed=5.52, country='null'}
+[2019-09-26T19:41:32.032Z] [INFO ] oleg , location = null, result = Status=Success, message='null' WeatherDTO{temp=12.4, pressure=1013.75, humidity=100, windSpeed=5.52, country='null'}
+[2019-09-26T19:41:42.042Z] [INFO ] oleg , location = London, result = Status=Success, message='null' WeatherDTO{temp=7, pressure=1012, humidity=81, windSpeed=4.6, country='GB'}
+[2019-09-26T19:44:27.027Z] [INFO ] oleg , location = Saint Petersburg, result = Status=Success, message='null' WeatherDTO{temp=8.9, pressure=1015, humidity=71, windSpeed=4, country='RU'} WeatherDTO{temp=29.4, pressure=1015, humidity=61, windSpeed=2.1, country='US'} WeatherDTO{temp=19.1, pressure=1012, humidity=77, windSpeed=3.6, country='US'}
+[2019-09-26T19:44:42.042Z] [INFO ] oleg , location = null, result = Status=Success, message='null' WeatherDTO{temp=24.45, pressure=999, humidity=63, windSpeed=0.45, country='null'}
+[2019-09-26T19:45:00.000Z] [INFO ] oleg , location = null, result = Status=Success, message='null' WeatherDTO{temp=-9.47, pressure=1009.96, humidity=94, windSpeed=4.92, country='null'}
+[2019-09-26T19:50:06.006Z] [INFO ] oleg , location = Saint Petersburg, result = Status=Success, message='null' WeatherDTO{temp=8.9, pressure=1015, humidity=71, windSpeed=4, country='RU'} WeatherDTO{temp=29.4, pressure=1015, humidity=61, windSpeed=2.1, country='US'} WeatherDTO{temp=19.1, pressure=1012, humidity=77, windSpeed=3.6, country='US'}
+[2019-09-26T19:50:16.016Z] [INFO ] oleg , location = null, result = Status=Success, message='null' WeatherDTO{temp=24.45, pressure=999, humidity=63, windSpeed=0.45, country='null'}
+[2019-09-26T19:50:32.032Z] [INFO ] oleg , location = null, result = Status=Success, message='null' WeatherDTO{temp=-56.07, pressure=1027.6, humidity=97, windSpeed=5, country='null'}
+[2019-09-26T19:50:44.044Z] [INFO ] oleg , location = null, result = Status=Success, message='null' WeatherDTO{temp=-29.07, pressure=994.38, humidity=72, windSpeed=8.66, country='null'}
+[2019-09-26T19:51:00.000Z] [INFO ] oleg , location = Saint Petersburg, result = Status=Success, message='null' WeatherDTO{temp=8.9, pressure=1015, humidity=71, windSpeed=4, country='RU'} WeatherDTO{temp=29.4, pressure=1015, humidity=61, windSpeed=2.1, country='US'} WeatherDTO{temp=19.1, pressure=1012, humidity=77, windSpeed=3.6, country='US'}
+[2019-09-27T10:41:12.012Z] [INFO ] eugene , location = Saint Petersburg, result = Status=Success, message='null' WeatherDTO{temp=9.1, pressure=1015, humidity=81, windSpeed=3, country='RU'} WeatherDTO{temp=24.4, pressure=1014, humidity=73, windSpeed=2.6, country='US'} WeatherDTO{temp=7.0, pressure=1017, humidity=100, windSpeed=2.1, country='US'}
+[2019-09-27T10:42:21.021Z] [INFO ] eugene , location = Mexico, result = Status=Success, message='null' WeatherDTO{temp=17.3, pressure=1011, humidity=77, windSpeed=3.1, country='US'} WeatherDTO{temp=32.4, pressure=1011, humidity=59, windSpeed=4.1, country='PH'} WeatherDTO{temp=9.9, pressure=1013, humidity=93, windSpeed=1.5, country='US'} WeatherDTO{temp=16.6, pressure=1017.31, humidity=76, windSpeed=1.21, country='ET'} WeatherDTO{temp=21.1, pressure=1007, humidity=89, windSpeed=0.89, country='MX'}
+[2019-09-27T10:42:48.048Z] [INFO ] eugene , location = Orda, result = Status=Success, message='null' WeatherDTO{temp=2.4, pressure=1008.34, humidity=80, windSpeed=5.4, country='RU'} WeatherDTO{temp=12.0, pressure=1018, humidity=100, windSpeed=1.19, country='HU'}
+[2019-09-27T10:49:55.055Z] [INFO ] oleg , location = New York, result = Status=Success, message='null' WeatherDTO{temp=14.4, pressure=1016, humidity=93, windSpeed=1.89, country='US'} WeatherDTO{temp=12.3, pressure=1000, humidity=93, windSpeed=5.1, country='GB'} WeatherDTO{temp=11.2, pressure=996, humidity=100, windSpeed=1.5, country='GB'} WeatherDTO{temp=22.1, pressure=1014.76, humidity=99, windSpeed=0.56, country='SL'} WeatherDTO{temp=19.7, pressure=1008, humidity=68, windSpeed=2.1, country='US'}
+[2019-09-27T10:59:35.035Z] [INFO ] oleg , location = New York, result = Status=Success, message='null' WeatherDTO{temp=14.4, pressure=1016, humidity=93, windSpeed=1.89, country='US'} WeatherDTO{temp=12.3, pressure=1000, humidity=93, windSpeed=5.1, country='GB'} WeatherDTO{temp=11.2, pressure=996, humidity=100, windSpeed=1.5, country='GB'} WeatherDTO{temp=22.1, pressure=1014.76, humidity=99, windSpeed=0.56, country='SL'} WeatherDTO{temp=19.7, pressure=1008, humidity=68, windSpeed=2.1, country='US'}
+[2019-09-27T11:00:31.031Z] [INFO ] eugene , location = null, result = Status=Success, message='null' WeatherDTO{temp=25, pressure=984, humidity=77, windSpeed=6.47, country='null'}
+[2019-09-27T11:03:36.036Z] [INFO ] oleg , location = null, result = Status=Success, message='null' WeatherDTO{temp=25, pressure=984, humidity=77, windSpeed=6.47, country='--'}
+[2019-09-27T11:03:46.046Z] [INFO ] oleg , location = Saint Petersburg, result = Status=Success, message='null' WeatherDTO{temp=9.1, pressure=1015, humidity=81, windSpeed=3, country='RU'} WeatherDTO{temp=24.4, pressure=1014, humidity=73, windSpeed=2.6, country='US'} WeatherDTO{temp=7.0, pressure=1017, humidity=100, windSpeed=2.1, country='US'}
+[2019-09-27T11:29:48.048Z] [INFO ]  , location = Toronto, result = Status=Success, message='null' WeatherDTO{temp=9.1, pressure=1015, humidity=87, windSpeed=1.79, country='CA'} WeatherDTO{temp=20.0, pressure=1014, humidity=23, windSpeed=4.1, country='AU'} WeatherDTO{temp=12.3, pressure=997, humidity=87, windSpeed=5.7, country='GB'} WeatherDTO{temp=8.6, pressure=1017, humidity=76, windSpeed=2.1, country='US'} WeatherDTO{temp=15.0, pressure=1001, humidity=63, windSpeed=3.6, country='US'}
+[2019-09-27T11:29:48.048Z] [INFO ]  , location = null, result = Status=Success, message='null' WeatherDTO{temp=3.38, pressure=1001.66, humidity=65, windSpeed=4.91, country='--'}
+[2019-09-27T11:31:16.016Z] [INFO ] dmitri , location = Saint Petersburg, result = Status=Success, message='null' WeatherDTO{temp=9.8, pressure=1015, humidity=81, windSpeed=3, country='RU'} WeatherDTO{temp=23.7, pressure=1014, humidity=78, windSpeed=1.5, country='US'} WeatherDTO{temp=6.9, pressure=1018, humidity=100, windSpeed=2.6, country='US'}
+[2019-09-27T11:31:32.032Z] [INFO ] dmitri , location = null, result = Status=Success, message='null' WeatherDTO{temp=32.88, pressure=1013.81, humidity=15, windSpeed=6.17, country='--'}
+[2019-09-27T11:36:15.015Z] [INFO ] eugene , location = Saint Petersburg, result = Status=Success, message='null' WeatherDTO{temp=9.8, pressure=1015, humidity=81, windSpeed=3, country='RU'} WeatherDTO{temp=23.7, pressure=1014, humidity=78, windSpeed=1.5, country='US'} WeatherDTO{temp=6.9, pressure=1018, humidity=100, windSpeed=2.6, country='US'}
+[2019-09-27T13:18:41.041Z] [INFO ] roman , location = Saint Petersburg, result = Status=Success, message='null' WeatherDTO{temp=10.8, pressure=1015, humidity=76, windSpeed=4, country='RU'} WeatherDTO{temp=22.9, pressure=1014, humidity=83, windSpeed=1.5, country='US'} WeatherDTO{temp=6.4, pressure=1018, humidity=93, windSpeed=1.7, country='US'}
+[2019-09-27T13:20:42.042Z] [INFO ] roman , location = null, result = Status=Success, message='null' WeatherDTO{temp=24.71, pressure=1013, humidity=90, windSpeed=1.34, country='--'}
+[2019-09-27T13:24:27.027Z] [INFO ]  , location = Toronto, result = Status=Success, message='null' WeatherDTO{temp=8.5, pressure=1016, humidity=93, windSpeed=1.79, country='CA'} WeatherDTO{temp=17.3, pressure=1015, humidity=46, windSpeed=1.5, country='AU'} WeatherDTO{temp=14.4, pressure=996, humidity=82, windSpeed=7.2, country='GB'} WeatherDTO{temp=8.5, pressure=1018, humidity=87, windSpeed=2.1, country='US'} WeatherDTO{temp=14.3, pressure=1002, humidity=77, windSpeed=1.5, country='US'}
+[2019-09-27T13:24:27.027Z] [INFO ]  , location = null, result = Status=Success, message='null' WeatherDTO{temp=3.38, pressure=1001.66, humidity=65, windSpeed=4.91, country='--'}
+[2019-09-27T13:25:48.048Z] [INFO ]  , location = Toronto, result = Status=Success, message='null' WeatherDTO{temp=8.5, pressure=1016, humidity=93, windSpeed=1.79, country='CA'} WeatherDTO{temp=17.3, pressure=1015, humidity=46, windSpeed=1.5, country='AU'} WeatherDTO{temp=14.4, pressure=996, humidity=82, windSpeed=7.2, country='GB'} WeatherDTO{temp=8.5, pressure=1018, humidity=87, windSpeed=2.1, country='US'} WeatherDTO{temp=14.3, pressure=1002, humidity=77, windSpeed=1.5, country='US'}
+[2019-09-27T13:25:48.048Z] [INFO ]  , location = null, result = Status=Success, message='null' WeatherDTO{temp=3.38, pressure=1001.66, humidity=65, windSpeed=4.91, country='--'}
+[2019-09-27T13:26:57.057Z] [INFO ]  , location = Toronto, result = Status=Success, message='null' WeatherDTO{temp=8.5, pressure=1016, humidity=93, windSpeed=1.79, country='CA'} WeatherDTO{temp=17.3, pressure=1015, humidity=46, windSpeed=1.5, country='AU'} WeatherDTO{temp=14.4, pressure=996, humidity=82, windSpeed=7.2, country='GB'} WeatherDTO{temp=8.5, pressure=1018, humidity=87, windSpeed=2.1, country='US'} WeatherDTO{temp=14.3, pressure=1002, humidity=77, windSpeed=1.5, country='US'}
+[2019-09-27T13:26:57.057Z] [INFO ]  , location = null, result = Status=Success, message='null' WeatherDTO{temp=3.38, pressure=1001.66, humidity=65, windSpeed=4.91, country='--'}
+[2019-09-27T13:29:06.006Z] [INFO ]  , location = Toronto, result = Status=Success, message='null' WeatherDTO{temp=8.5, pressure=1016, humidity=93, windSpeed=1.79, country='CA'} WeatherDTO{temp=17.3, pressure=1015, humidity=46, windSpeed=1.5, country='AU'} WeatherDTO{temp=14.4, pressure=996, humidity=82, windSpeed=7.2, country='GB'} WeatherDTO{temp=8.5, pressure=1018, humidity=87, windSpeed=2.1, country='US'} WeatherDTO{temp=14.3, pressure=1002, humidity=77, windSpeed=1.5, country='US'}
+[2019-09-27T13:29:06.006Z] [INFO ]  , location = null, result = Status=Success, message='null' WeatherDTO{temp=3.38, pressure=1001.66, humidity=65, windSpeed=4.91, country='--'}
+[2019-09-27T13:31:56.056Z] [INFO ] oleg , location = Saint Petersburg, result = Status=Success, message='null' WeatherDTO{temp=10.8, pressure=1015, humidity=76, windSpeed=4, country='RU'} WeatherDTO{temp=22.9, pressure=1014, humidity=83, windSpeed=1.5, country='US'} WeatherDTO{temp=6.4, pressure=1018, humidity=93, windSpeed=1.7, country='US'}
+[2019-11-05T12:14:45.045Z] [INFO ]  , location = Toronto, result = Status=Success, message='null' WeatherDTO{temp=7.9, pressure=1016, humidity=87, windSpeed=2.1, country='CA'} WeatherDTO{temp=14.9, pressure=1016, humidity=82, windSpeed=3.1, country='AU'} WeatherDTO{temp=8.3, pressure=1002, humidity=87, windSpeed=9.3, country='GB'} WeatherDTO{temp=8.5, pressure=1020, humidity=89, windSpeed=3.6, country='US'} WeatherDTO{temp=-8.5, pressure=1024, humidity=92, windSpeed=2.1, country='US'}
+[2019-11-05T12:14:46.046Z] [INFO ]  , location = null, result = Status=Success, message='null' WeatherDTO{temp=1.89, pressure=1007, humidity=95, windSpeed=4.07, country='--'}
+[2019-11-05T12:15:59.059Z] [INFO ] dmitri , location = Saint Petersburg, result = Status=Success, message='null' WeatherDTO{temp=0.9, pressure=996, humidity=80, windSpeed=8, country='RU'} WeatherDTO{temp=22.8, pressure=1018, humidity=88, windSpeed=1.5, country='US'} WeatherDTO{temp=7.5, pressure=1019, humidity=75, windSpeed=4.1, country='US'}
